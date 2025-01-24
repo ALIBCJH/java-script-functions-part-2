@@ -34,3 +34,8 @@ console.log(x(4));
 
 let y = x(3);
 console.log(y);
+
+const age = 35;
+const votingAge = () =>{
+  age >= 18 ? "You are allowed to via for the president" : "You are too young to via for the presidency";
+}
